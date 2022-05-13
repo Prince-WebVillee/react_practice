@@ -9,6 +9,7 @@ import Parent from "./Hooks/UseState/parent";
 import "./styles.css";
 import UseCallback from "./Hooks/UseCallback/useCallback";
 import UseReducer from "./Hooks/UseReducer/useReducer";
+import UseContext from "./Hooks/UseContext/useContext";
 
 export default function App() {
   return (
@@ -22,7 +23,8 @@ export default function App() {
       <B /> */}
       {/* <UseMeMo /> */}
       {/* <UseCallback /> */}
-      <UseReducer />
+      {/* <UseReducer /> */}
+      <UseContext />
     </div>
   );
 }
